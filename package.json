@@ -1,0 +1,9 @@
+{
+  "name": "v-tabs",
+  "version": "0.0.0",
+  "description": "A Vue component to easily render tabs.",
+  "main": "src/index.js",
+  "author": "Daniel Elmalem <delmalem697@gmail.com>",
+  "private": true,
+  "license": "UNLICENSED"
+}
