@@ -18,7 +18,7 @@ Then you will need to register the components globally in you main js file.
 ```js
 // If Vue has been added to the global scope as:
 // window.Vue = require('Vue')
-import 'v-tabs';
+require('v-tabs');
 
 // Otherwise
 import Tabs from 'v-tabs';
