@@ -1,4 +1,4 @@
-# VueJS components to render tabs.
+# Tabs components for Vue.js 2
 
 ## Demo
 
@@ -16,20 +16,24 @@ npm install dany68/v-tabs --save
 Then you will need to register the components globally in you main js file.
 
 ```js
-//in your app.js or similar file
-import Vue from 'vue';
-import {Tabs, Tab} from 'v-tabs';
+// If Vue has been added to the global scope as:
+// window.Vue = require('Vue')
+import 'v-tabs';
 
-Vue.component('tabs', Tabs);
-Vue.component('tab', Tab);
+// Otherwise
+import Tabs from 'v-tabs';
+Vue.use(Tabs);
 ```
 
-Alternatively you can do this to register the components:
+Alternatively you can register v-tabs locally:
 
 ```js
-import Tabs from 'v-tabs';
+//in your Component.vue or similar file
+import { Tabs, Tab } from 'v-tabs';
 
-Vue.use(Tabs);
+export default {
+    components: { Tabs, Tab }
+}
 ```
 
 ## Usage

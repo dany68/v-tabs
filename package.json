@@ -5,5 +5,5 @@
   "main": "src/index.js",
   "author": "Daniel Elmalem <delmalem697@gmail.com>",
   "private": true,
-  "license": "UNLICENSED"
+  "license": "MIT"
 }
